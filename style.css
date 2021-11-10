@@ -1,13 +1,23 @@
 body{
     background-color: #f5f6f7;
 }
-.title{
+.color{
     background-color: #f1f1ef;
+}
+.size{
     margin: 15px;
     padding: 30px;
 }
-.class{
+.link-color{
     background-color: #333;
-    padding: 15px;
     color: white;
+}
+.link-size{
+    padding: 15px;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:tomato
 }
