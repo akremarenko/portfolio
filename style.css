@@ -1,12 +1,13 @@
 body{
     background-color: #f5f6f7;
+    width: 60%;
 }
 .color{
     background-color: #f1f1ef;
 }
 .size{
-    margin: 15px;
-    padding: 30px;
+    margin: 0 15px;
+    padding: 30px;;
 }
 .link-color{
     background-color: #333;
@@ -14,10 +15,15 @@ body{
 }
 .link-size{
     padding: 15px;
+    margin: 0 15px;
 }
 a:visited{
     color: white;
 }
 a:hover{
     color:tomato
+}
+.flex-container{
+    display: -webkit-inline-flex;
+    display: inline-flex;
 }
